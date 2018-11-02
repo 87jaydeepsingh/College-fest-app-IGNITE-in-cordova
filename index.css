@@ -1,0 +1,36 @@
+#a{height:40%;background-color:white;right:2%;left:2%;border-radius:10px}
+#block{
+	width:100%;
+	height:auto;
+	background-color:white;
+	border-radius:10px;
+}
+#pic{
+	height:90px;
+	width:90px;
+	border-radius:50px;
+	border:4px solid #33cc33;
+}
+#pic1{
+	height:90px;
+	width:90px;
+	border-radius:50px;
+	border:4px solid red;
+}
+#name{
+	font-size:20px;
+}
+#mob{
+	text-align:center;
+	background-color:#c0c0c0;
+	width:150px;
+	height:25px;
+	border-radius:5px;
+}
+a{	
+text-decoration:none;
+	color:black;
+}
+table{
+	border-color:transparent;
+}

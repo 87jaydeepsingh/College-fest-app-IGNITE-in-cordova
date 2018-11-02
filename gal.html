@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+#header{
+	position:fixed;
+	width:100%;
+	height:30px;
+	left:0px;
+	top:0px;
+	background-color:#33cc33;
+	font-size:25px;
+	font-family:Fixedsys;
+}
+
+#footer{
+	position:fixed;
+	width:100%;
+	height:40px;
+	left:0px;
+	bottom:0px;
+	background-color:#33cc33;
+	font-family:Forte;
+}
+#slider {
+  border:1px solid lightgray;
+  margin-top:1px;
+  width:100%;
+  height: 250px;
+}
+
+@keyframes slider {
+0% {left:0;}
+
+20% {left:0;}
+
+25%{left:-100%;}
+
+45%{left: -100%;}
+
+50%{left:-200%;}
+
+70%{left:-200%;}
+
+75%{left: -300%;}
+
+95%{left: -300%;}
+
+100%{left:-400%;}
+}
+
+
+#slider figure img{
+  width: 20%;
+  height:250px;
+  float: left;}
+
+#slider figure
+ {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slider infinite; 
+}
+
+#slider{overflow: hidden;}
+</style>
+</head>
+<body>
+<br>
+<h2>Team</h2>
+<div id="slider">
+	 <figure>
+       <img src="img/d.jpg">
+        <img src="img/b.jpg">
+        <img src="img/e.jpg">
+        <img src="img/f.jpg">
+        <img src="img/a.jpg">
+     </figure>
+</div>
+<h2>Participants</h2>
+<div id="slider">
+	 <figure>
+       <img src="img/pa1.jpg">
+        <img src="img/pa2.jpg">
+        <img src="img/pa3.jpg">
+        <img src="img/pa4.jpg">
+        <img src="img/pa5.jpg">
+     </figure>
+</div>
+<h2>Award</h2>
+<div id="slider">
+	 <figure>
+       <img src="img/l.jpg">
+        <img src="img/g.jpg">
+        <img src="img/h.jpg">
+        <img src="img/j.jpg">
+        <img src="img/k.jpg">
+     </figure>
+</div>
+<br><br>
+<div id="header">&nbsp;Gallery</div>
+<div id="footer">
+<a href="index.html"><img src="img/event.png" style="left:10%;height:20px;bottom:10px;position:fixed;"></a>
+<a href="com.html"><img src="img/com.png" style="right:65%;height:20px;bottom:10px;position:fixed;"></a>
+<img src="img/gal.png" style="right:35%;height:35px;bottom:2px;position:fixed">
+<a href="info.html"><img src="img/info.png" style="right:10%;height:20px;bottom:10px;position:fixed;"></a>
+</div>
+</body>
+<html>
